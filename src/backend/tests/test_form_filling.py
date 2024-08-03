@@ -181,7 +181,7 @@ class TestJohnCommonMultnomahConvictionBuildZip(TestJohnCommonBuildZip):
 class TestPDFFileNameAndDownloadPath:
     def mock_case_results(self, county, has_convictions):
         mock_case_results = Mock(spec=CaseResults)
-        mock_case_results.county = county
+        #mock_case_results.county = county
         mock_case_results.case_name = "case_name"
         mock_case_results.case_number = "case_number"
         mock_case_results.has_conviction = has_convictions

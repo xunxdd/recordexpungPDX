@@ -21,7 +21,7 @@ from expungeservice.models.charge_types.violation import Violation
 from expungeservice.models.expungement_result import ChargeEligibilityStatus
 from expungeservice.models.record_summary import RecordSummary
 from expungeservice.pdf.markdown_to_pdf import MarkdownToPDF
-from expungeservice.util import DateWithFuture
+from expungeservice.endpoints.pdf import Pdf
 
 DA_ADDRESSES = {
     "baker": "Baker County Courthouse - 1995 Third Street, Suite 320 - Baker City, OR 97814",
